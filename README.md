@@ -31,6 +31,16 @@ This project analyzes movie data from 2021 to 2023, focusing on various aspects 
 - Box plots of ratings and view counts across years
 - Word frequency analysis in movie titles
 
+<div id="notebook-dashboard"></div>
+
+<script>
+  fetch('movie_analysis-dashboard.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('notebook-dashboard').innerHTML = data;
+    });
+</script>
+
 The project demonstrates the ability to handle real-world data, generate meaningful insights, and present findings through clear and informative visualizations.
 
 ## How to Use
@@ -46,3 +56,15 @@ Note: You'll need to:
 
 Set up your own PostgreSQL database
 Obtain an OMDB API key to fully replicate the data collection process
+
+## Jupyter Notebooks
+
+<div id="notebook-content"></div>
+
+<script>
+  fetch('main.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('notebook-content').innerHTML = data;
+    });
+</script>
