@@ -2,20 +2,21 @@
 
 
 This project demonstrates a comprehensive analysis of movie data.
+##
+- **Data Manipulation:** Pandas for data cleaning, transformation, and analysis
 
-**Data Manipulation:** Pandas for data cleaning, transformation, and analysis
+- **Data Visualization:** Matplotlib and Seaborn for creating insightful plots and charts
 
-**Data Visualization:** Matplotlib and Seaborn for creating insightful plots and charts
+- **Database Integration:** SQLAlchemy for connecting to and querying a PostgreSQL database
 
-**Database Integration:** SQLAlchemy for connecting to and querying a PostgreSQL database
+- **API Integration:** Requests library for fetching movie data from the OMDB API
 
-**API Integration:** Requests library for fetching movie data from the OMDB API
+- **Statistical Analysis:** Correlation analysis and descriptive statistics
 
-**Statistical Analysis:** Correlation analysis and descriptive statistics
+- **Natural Language Processing (NLP):** Basic text analysis for movie titles
 
-**Natural Language Processing (NLP):** Basic text analysis for movie titles
+- **Version Control:** Git for code management and collaboration
 
-**Version Control:** Git for code management and collaboration
 
 ## About the Project
 This project analyzes movie data from 2021 to 2023, focusing on various aspects such as ratings, view counts, and title word frequencies. The analysis includes:
