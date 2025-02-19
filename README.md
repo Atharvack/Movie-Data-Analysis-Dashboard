@@ -55,6 +55,7 @@ The project demonstrates the ability to handle real-world data, generate meaning
 
    ```bash
    git clone https://github.com/Atharvack/movie-data-analysis-dashboard.git
+   ```
 
 2. **Run the Jupyter notebooks to see the analysis and generate visualizations.**
 
